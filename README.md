@@ -180,6 +180,9 @@ All following examples uses a snom phone as a target device and require these pa
 * [filter_registrar](http://wiki.snom.com/wiki/index.php/Settings/filter_registrar) to "off"
 * [network_id_port](http://wiki.snom.com/Settings/network_id_port): 5060
 
+Additionally to set settings via a settings XML body use
+* [allow_sip_settings](http://wiki.snom.com/Settings/allow_sip_settings) : on
+
 In my example command line I used these parameters:
     
 * **151** is a valid sip account
